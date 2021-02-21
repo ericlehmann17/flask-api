@@ -9,7 +9,7 @@ Once the application is running on your local machine, open http://127.0.0.1:500
 
 There are two primary functions that this application can perform:
   - Add the following text to the url to pull all of the data from the database and display it, jsonified: api/v1/resources/books/all
-  - Instead of /all, type a '?' followed by one of the following: author=<type a name>, id=<type an integer>, published=<type a year>. This will return all the books that have the specified id number, or specified author, or specified publication year (jsonified).
+  - Instead of /all, type a '?' followed by one of the following: author=[type a name], id=[type an integer], published=[type a year]. This will return all the books that have the specified id number, or specified author, or specified publication year (jsonified).
 
 While making this application, I learned a lot about apis, url structure, http methods and how to manage them (mainly get), databases, html tags, flask in general, databases and SQL.
 
